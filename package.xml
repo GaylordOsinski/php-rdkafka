@@ -422,8 +422,8 @@
 
     ## Bugfixes
 
-    * Fix partition 0 exposed as NULL in Message (#327 reverts #321, @arnaud-lb @nick-zh)
-    * Fix memory leak in consume() when messages have headers (#323, @nick-zh)
+    # Fix partition 0 exposed as NULL in Message (#327 reverts #321, @arnaud-lb @nick-zh)
+    ! Fix memory leak in consume() when messages have headers (#323, @nick-zh)
    </notes>
   </release>
   <release>
@@ -449,7 +449,7 @@
 
     ## Features
 
-    * Added RdKafka\ConsumerTopic::consumeCallback() (#310, @nick-zh)
+    # Added RdKafka\ConsumerTopic::consumeCallback() (#310, @nick-zh)
 
     ## Enhancements
 
@@ -754,3 +754,4 @@
   </release>
  </changelog>
 </package>
+ 
